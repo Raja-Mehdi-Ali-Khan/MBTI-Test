@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto as the default font */
+  height: 100vh;
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  max-width: 740px;
+  margin: auto;
+  margin-top: 150px;
+  background: linear-gradient(135deg, #f5f7fa5a, #c3cfe25f);
+  color: rgb(62, 62, 62);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 40px 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  max-height: 1743px; /* Set the maximum height */
+  overflow-y: auto; /* Enable scrolling within the container if needed */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container:hover {
+  transform: translateY(-10px);
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #aaa;
+  margin: 20px 0;
+}
+
+.container h2 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft text shadow */
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+  background: linear-gradient(135deg, #ffffff, #e6e9f0); /* Subtle gradient background */
+}
+
+.container ul li:hover {
+  background-color: #e0e0e0;
+  border: 1px solid purple;
+  transform: translateY(-5px) scale(1.02); /* Slight lift and scale on hover */
+}
+
+.container ul li.selected {
+  background: linear-gradient(135deg, #d5a6ff8d, #e1f8fb); /* Green gradient for selected option */
+  border-color: #553f9a; /* Darker border for selected option */
+  transform: translateY(-2px) scale(1.05); /* Slightly lift and scale selected option */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for a more prominent look */
+}
+
+.container .option-heading {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #444;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.container .option-description {
+  font-size: 16px;
+  color: rgb(90, 90, 90);
+  line-height: 1.5;
+}
+
+.container .submit {
+  margin: auto;
+  width: 260px;
+  height: 65px;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Vivid purple gradient */
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for a floating button effect */
+}
+
+.container .submit:hover {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2); /* Reverse the gradient on hover */
+  transform: translateY(-3px) scale(1.05); /* Slightly lift and scale on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.container .index {
+  margin: auto;
+  font-size: 19px;
+  color: #555;
+  margin-top: 20px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.container .index:hover {
+  color: #553f9a; /* Change color on hover */
+}
+
+.result-card {
+  background: linear-gradient(135deg, #ffffff, #e6e9f0); /* Subtle gradient background */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for a card-like appearance */
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out; /* Smooth fade-in animation */
+  transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+.result-card:hover {
+  transform: translateY(-10px) scale(1.03); /* Slight lift and scale on hover */
+}
+
+.result-card h2 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+  font-size: 32px;
+  font-weight: bold;
+  color: #553f9a; /* Vivid purple color */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft text shadow */
+}
+
+.result-card p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.result-card h3 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft text shadow */
+}
+
+.result-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left; /* Align text to the left for readability */
+}
+
+.result-card ul li {
+  font-size: 18px;
+  color: rgb(90, 90, 90);
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.result-card ul li:before {
+  /* Bullet point before each item */
+  color: #553f9a; /* Vivid purple color */
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.result-card ul li:hover {
+  color: #553f9a; /* Change text color on hover */
+  transform: translateX(5px); /* Slight slide on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.result-button {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Vivid purple gradient */
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for a floating button effect */
+}
+
+.result-button:hover {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2); /* Reverse the gradient on hover */
+  transform: translateY(-3px) scale(1.05); /* Slightly lift and scale on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+    padding: 20px;
+    max-height: none; /* Allow the container to grow with the content */
+    overflow: hidden; /* Prevent scrolling */
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+
+  .container ul li {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .container .submit {
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+  }
+
+  .result-card {
+    padding: 20px;
+  }
+
+  .result-card h2 {
+    font-size: 28px;
+  }
+
+  .result-card p {
+    font-size: 16px;
+  }
+
+  .result-card h3 {
+    font-size: 20px;
+  }
+
+  .result-card ul li {
+    font-size: 16px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .result-button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .container ul li {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container .submit {
+    font-size: 20px;
+  }
+
+  .result-card {
+    padding: 15px;
+  }
+
+  .result-card h2 {
+    font-size: 24px;
+  }
+
+  .result-card p {
+    font-size: 14px;
+  }
+
+  .result-card h3 {
+    font-size: 18px;
+  }
+
+  .result-card ul li {
+    font-size: 14px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .result-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+}

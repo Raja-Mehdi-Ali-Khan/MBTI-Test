@@ -1,0 +1,418 @@
+[
+    {
+        "type": "INTJ",
+        "title": "The Architect",
+        "description": "INTJs are imaginative and strategic thinkers with a plan for everything.",
+        "characteristics": [
+            "Strategic",
+            "Independent",
+            "Confident",
+            "Hard-working",
+            "Reserved"
+        ],
+        "strengths": [
+            "Creative",
+            "Efficient",
+            "Insightful",
+            "Determined",
+            "High Self-Confidence"
+        ],
+        "weaknesses": [
+            "Arrogant",
+            "Judgmental",
+            "Overly Analytical",
+            "Loathe Highly Structured Environments",
+            "Clueless in Romance"
+        ]
+    },
+    {
+        "type": "INTP",
+        "title": "The Logician",
+        "description": "INTPs are innovative inventors with an unquenchable thirst for knowledge.",
+        "characteristics": [
+            "Analytical",
+            "Open-Minded",
+            "Inventive",
+            "Curious",
+            "Objective"
+        ],
+        "strengths": [
+            "Great Analysts",
+            "Imaginative",
+            "Enthusiastic",
+            "Objective",
+            "Honest"
+        ],
+        "weaknesses": [
+            "Very Private",
+            "Insensitive",
+            "Absent-minded",
+            "Condescending",
+            "Dislike Practical Matters"
+        ]
+    },
+    {
+        "type": "ENTJ",
+        "title": "The Commander",
+        "description": "ENTJs are bold, imaginative, and strong-willed leaders, always finding a way or making one.",
+        "characteristics": [
+            "Efficient",
+            "Energetic",
+            "Strategic",
+            "Charismatic",
+            "Inspirational"
+        ],
+        "strengths": [
+            "Efficient",
+            "Energetic",
+            "Confident",
+            "Strong-Willed",
+            "Strategic Thinker"
+        ],
+        "weaknesses": [
+            "Stubborn",
+            "Intolerant",
+            "Impatient",
+            "Arrogant",
+            "Poor Handling of Emotions"
+        ]
+    },
+    {
+        "type": "ENTP",
+        "title": "The Debater",
+        "description": "ENTPs are smart and curious thinkers who cannot resist an intellectual challenge.",
+        "characteristics": [
+            "Energetic",
+            "Innovative",
+            "Outspoken",
+            "Spontaneous",
+            "Quick-Witted"
+        ],
+        "strengths": [
+            "Knowledgeable",
+            "Quick Thinkers",
+            "Original",
+            "Excellent Brainstormers",
+            "Charismatic"
+        ],
+        "weaknesses": [
+            "Argumentative",
+            "Insensitive",
+            "Intolerant",
+            "Can Find it Difficult to Focus",
+            "Dislike Practical Matters"
+        ]
+    },
+    {
+        "type": "INFJ",
+        "title": "The Advocate",
+        "description": "INFJs are quiet and mystical, yet very inspiring and tireless idealists.",
+        "characteristics": [
+            "Creative",
+            "Insightful",
+            "Principled",
+            "Passionate",
+            "Altruistic"
+        ],
+        "strengths": [
+            "Creative",
+            "Insightful",
+            "Inspiring",
+            "Decisive",
+            "Determined"
+        ],
+        "weaknesses": [
+            "Sensitive",
+            "Extremely Private",
+            "Perfectionistic",
+            "Can Burn Out Easily",
+            "Prone to Self-Doubt"
+        ]
+    },
+    {
+        "type": "INFP",
+        "title": "The Mediator",
+        "description": "INFPs are poetic, kind, and altruistic people, always eager to help a good cause.",
+        "characteristics": [
+            "Empathetic",
+            "Generous",
+            "Open-Minded",
+            "Creative",
+            "Idealistic"
+        ],
+        "strengths": [
+            "Empathetic",
+            "Generous",
+            "Open-Minded",
+            "Creative",
+            "Passionate"
+        ],
+        "weaknesses": [
+            "Too Idealistic",
+            "Too Altruistic",
+            "Impractical",
+            "Dislike Dealing with Data",
+            "Self-Critical"
+        ]
+    },
+    {
+        "type": "ENFJ",
+        "title": "The Protagonist",
+        "description": "ENFJs are charismatic and inspiring leaders, able to mesmerize their listeners.",
+        "characteristics": [
+            "Charismatic",
+            "Altruistic",
+            "Reliable",
+            "Tolerant",
+            "Natural Leaders"
+        ],
+        "strengths": [
+            "Tolerant",
+            "Reliable",
+            "Charismatic",
+            "Altruistic",
+            "Natural Leaders"
+        ],
+        "weaknesses": [
+            "Overly Idealistic",
+            "Too Selfless",
+            "Too Sensitive",
+            "Struggle to Make Tough Decisions",
+            "Can Burn Out Easily"
+        ]
+    },
+    {
+        "type": "ENFP",
+        "title": "The Campaigner",
+        "description": "ENFPs are enthusiastic, creative, and sociable free spirits, who can always find a reason to smile.",
+        "characteristics": [
+            "Curious",
+            "Perceptive",
+            "Enthusiastic",
+            "Communicative",
+            "Fun-Loving"
+        ],
+        "strengths": [
+            "Curious",
+            "Observant",
+            "Energetic",
+            "Enthusiastic",
+            "Excellent Communicators"
+        ],
+        "weaknesses": [
+            "Overthink Things",
+            "Dislike Practical Matters",
+            "Can Be Easily Stressed",
+            "Highly Emotional",
+            "Independent to a Fault"
+        ]
+    },
+    {
+        "type": "ISTJ",
+        "title": "The Logistician",
+        "description": "ISTJs are practical and fact-minded individuals, whose reliability cannot be doubted.",
+        "characteristics": [
+            "Honest",
+            "Responsible",
+            "Loyal",
+            "Diligent",
+            "Traditional"
+        ],
+        "strengths": [
+            "Honest",
+            "Responsible",
+            "Loyal",
+            "Calm and Practical",
+            "Determined"
+        ],
+        "weaknesses": [
+            "Stubborn",
+            "Insensitive",
+            "Always by the Book",
+            "Judgmental",
+            "Often Unyielding"
+        ]
+    },
+    {
+        "type": "ISFJ",
+        "title": "The Defender",
+        "description": "ISFJs are very dedicated and warm protectors, always ready to defend their loved ones.",
+        "characteristics": [
+            "Supportive",
+            "Reliable",
+            "Patient",
+            "Imaginative",
+            "Enthusiastic"
+        ],
+        "strengths": [
+            "Supportive",
+            "Reliable",
+            "Patient",
+            "Imaginative",
+            "Loyal"
+        ],
+        "weaknesses": [
+            "Humble and Shy",
+            "Overload Themselves",
+            "Take Things Personally",
+            "Repress Their Feelings",
+            "Reluctant to Change"
+        ]
+    },
+    {
+        "type": "ESTJ",
+        "title": "The Executive",
+        "description": "ESTJs are excellent administrators, unsurpassed at managing things or people.",
+        "characteristics": [
+            "Organized",
+            "Practical",
+            "Reliable",
+            "Hardworking",
+            "Traditional"
+        ],
+        "strengths": [
+            "Dedicated",
+            "Strong-Willed",
+            "Direct",
+            "Loyal",
+            "Organized"
+        ],
+        "weaknesses": [
+            "Inflexible",
+            "Stubborn",
+            "Uncomfortable with Unconventional Situations",
+            "Judgmental",
+            "Too Focused on Social Status"
+        ]
+    },
+    {
+        "type": "ESFJ",
+        "title": "The Consul",
+        "description": "ESFJs are extraordinarily caring, social, and popular people, always eager to help.",
+        "characteristics": [
+            "Caring",
+            "Social",
+            "Popular",
+            "Organized",
+            "Supportive"
+        ],
+        "strengths": [
+            "Strong Practical Skills",
+            "Sociable",
+            "Supportive",
+            "Reliable",
+            "Loyal"
+        ],
+        "weaknesses": [
+            "Worried About Social Status",
+            "Inflexible",
+            "Reluctant to Innovate",
+            "Vulnerable to Criticism",
+            "Too Selfless"
+        ]
+    },
+    {
+        "type": "ISTP",
+        "title": "The Virtuoso",
+        "description": "ISTPs are bold and practical experimenters, masters of all kinds of tools.",
+        "characteristics": [
+            "Bold",
+            "Practical",
+            "Rational",
+            "Curious",
+            "Independent"
+        ],
+        "strengths": [
+            "Optimistic",
+            "Energetic",
+            "Creative",
+            "Practical",
+            "Spontaneous"
+        ],
+        "weaknesses": [
+            "Stubborn",
+            "Insensitive",
+            "Private and Reserved",
+            "Easily Bored",
+            "Dislike Commitment"
+        ]
+    },
+    {
+        "type": "ISFP",
+        "title": "The Adventurer",
+        "description": "ISFPs are flexible and charming artists, always ready to explore and experience something new.",
+        "characteristics": [
+            "Charming",
+            "Sensitive",
+            "Curious",
+            "Artistic",
+            "Adventurous"
+        ],
+        "strengths": [
+            "Charming",
+            "Imaginative",
+            "Curious",
+            "Artistic",
+            "Loyal"
+        ],
+        "weaknesses": [
+            "Fiercely Independent",
+            "Unpredictable",
+            "Easily Stressed",
+            "Overly Competitive",
+            "Fluctuating Self-Esteem"
+        ]
+    },
+    {
+        "type": "ESTP",
+        "title": "The Entrepreneur",
+        "description": "ESTPs are smart, energetic, and very perceptive people, who truly enjoy living on the edge.",
+        "characteristics": [
+            "Energetic",
+            "Bold",
+            "Direct",
+            "Sociable",
+            "Spontaneous"
+        ],
+        "strengths": [
+            "Bold",
+            "Rational",
+            "Perceptive",
+            "Direct",
+            "Sociable"
+        ],
+        "weaknesses": [
+            "Insensitive",
+            "Impatient",
+            "Risk-Prone",
+            "Unstructured",
+            "May Miss the Bigger Picture"
+        ]
+    },
+    {
+        "type": "ESFP",
+        "title": "The Entertainer",
+        "description": "ESFPs are spontaneous, energetic, and enthusiastic entertainers – life is never boring around them.",
+        "characteristics": [
+            "Spontaneous",
+            "Energetic",
+            "Enthusiastic",
+            "Sociable",
+            "Fun-Loving"
+        ],
+        "strengths": [
+            "Bold",
+            "Original",
+            "Aesthetics and Showmanship",
+            "Practical",
+            "Observant"
+        ],
+        "weaknesses": [
+            "Sensitive",
+            "Conflict-Averse",
+            "Easily Bored",
+            "Poor Long-Term Planners",
+            "Unfocused"
+        ]
+    }
+]

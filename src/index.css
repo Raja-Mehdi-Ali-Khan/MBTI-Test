@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto as the default font */
+  height: 100vh;
+  background: linear-gradient(to right, #636FA4, #E8CBC0);
+  background-size: 200% 200%; /* Ensure the gradient covers the area */
+  animation: gradientAnimation 5s ease infinite; /* Apply the animation */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
